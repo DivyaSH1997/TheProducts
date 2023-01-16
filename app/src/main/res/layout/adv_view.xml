@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <data>
+        <variable
+            name="advObject"
+            type="com.example.productadvertisement.Adv" />
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="1000px"
+        android:layout_height="600px"
+        android:src="@{advObject.imageidadv}"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="40px"
+        android:layout_marginBottom="50px"
+        android:id="@+id/advimage"/>
+
+</LinearLayout>
+
+</layout>

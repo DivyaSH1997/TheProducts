@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout>
+
+    <data>
+        <variable
+            name="productObject"
+            type="com.example.productadvertisement.Product" />
+    </data>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="400px"
+        android:layout_height="250px"
+        android:src="@{productObject.imageidprod}"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="50px"
+        android:layout_marginBottom="40px"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/prodimage"/>
+
+
+    <TextView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:id="@+id/txtsrno"
+        android:textSize="40px"
+        android:textColor="@color/black"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="60px"
+        android:text="@{productObject.srno}"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/prodimage"/>
+    <TextView
+        android:layout_width="350px"
+        android:layout_height="100px"
+        android:id="@+id/txtname"
+        android:textSize="40px"
+        android:text="@{productObject.name}"
+        android:textColor="@color/black"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="60px"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/txtsrno"/>
+    <TextView
+        android:layout_width="350px"
+        android:layout_height="100px"
+        android:id="@+id/txtprice"
+        android:text="@{productObject.price}"
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="220px"
+        android:textSize="40px"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/txtname"
+        app:layout_constraintLeft_toRightOf="@id/prodimage"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

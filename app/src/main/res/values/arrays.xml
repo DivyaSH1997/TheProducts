@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="srno">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+            <item>6</item>
+            <item>7</item>
+            <item>8</item>
+            <item>9</item>
+            <item>10</item>
+            <item>11</item>
+            <item>12</item>
+            <item>13</item>
+            <item>14</item>
+            <item>15</item>
+            <item>16</item>
+
+        </string-array>
+
+        <integer-array name="productimages">
+            <item>@drawable/product1</item>
+            <item>@drawable/product2</item>
+            <item>@drawable/product3</item>
+            <item>@drawable/product4</item>
+            <item>@drawable/product5</item>
+            <item>@drawable/product6</item>
+            <item>@drawable/product7</item>
+            <item>@drawable/product8</item>
+            <item>@drawable/product9</item>
+            <item>@drawable/product10</item>
+            <item>@drawable/product11</item>
+            <item>@drawable/product12</item>
+            <item>@drawable/product13</item>
+            <item>@drawable/product14</item>
+            <item>@drawable/product15</item>
+            <item>@drawable/product16</item>
+
+        </integer-array>
+        <string-array name="productnames">
+            <item>Dressbery</item>
+            <item>French Collection</item>
+            <item>Joker Witch</item>
+            <item>Swarovski</item>
+            <item>Chumbak</item>
+            <item>Fossil</item>
+            <item>Guess</item>
+            <item>Joker Witch</item>
+            <item>Guess</item>
+            <item>Roadster</item>
+            <item>Dressbery</item>
+            <item>Fastrack</item>
+            <item>Daniel Wellington</item>
+            <item>London Carlton</item>
+            <item>Fossil</item>
+            <item>Chumbak</item>
+        </string-array>
+        <string-array name="productprices">
+            <item>1200</item>
+            <item>3000</item>
+            <item>5800</item>
+            <item>28000</item>
+            <item>3500</item>
+            <item>8000</item>
+            <item>19000</item>
+            <item>6600</item>
+            <item>1900</item>
+            <item>2000</item>
+            <item>2400</item>
+            <item>3400</item>
+            <item>14000</item>
+            <item>6200</item>
+            <item>14000</item>
+            <item>3800</item>
+
+        </string-array>
+    <integer-array name="advertisement">
+        <item>@drawable/adv1</item>
+        <item>@drawable/adv2</item>
+        <item>@drawable/adv3</item>
+        <item>@drawable/adv4</item>
+        <item>@drawable/adv5</item>
+        <item>@drawable/adv6</item>
+        <item>@drawable/adv7</item>
+        <item>@drawable/adv8</item>
+
+    </integer-array>
+</resources>
